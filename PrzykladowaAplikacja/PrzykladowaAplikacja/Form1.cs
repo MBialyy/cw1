@@ -18,7 +18,7 @@ namespace PrzykladowaAplikacja
         {
             if(string.IsNullOrWhiteSpace(imieTextBox.Text))
             {
-                //
+                
                 MessageBox.Show("Imiê nie mo¿e byæ puste");
                 NazwiskoTextBox.Text = "";
                 return;
